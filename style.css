@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    margin: 0;
+    padding: 0 40px;
+    background-color: #FFE4B8;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    margin: 15px 0;
+}
+
+.steps {
+    width: 40%;
+}
+
+.recipes {
+    background-color: #FF9669;
+    width: max-content;
+    padding: 6px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    color: #36697A;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+.recplist {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.recplist li::before {
+    content: "🚀 ";
+  }
